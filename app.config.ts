@@ -7,7 +7,7 @@ import dotenv from "dotenv";
 
 dotenv.config();
 
-const BASE_PATH = (globalThis as any).process?.env?.SERVER_BASE_URL ?? "";
+const BASE_PATH = (globalThis as any).process?.env?.BASE_PATH ?? "";
 
 export default defineConfig({
   ssr: false,
